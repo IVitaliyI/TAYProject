@@ -1,0 +1,1 @@
+% model of Hall Sensor
