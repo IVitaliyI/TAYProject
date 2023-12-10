@@ -3,8 +3,9 @@ m = .1;
 M = .2;
 L = .5;
 g = 9.8;
-
+J = m * L^2 / 3;
 ts = 3/7;
+l = 0.5;
 
 
 %% Input data
@@ -49,7 +50,5 @@ i_rail = 20;
 k_visco = 0.05;
 m_rail = 0.5;
 J_rail = 1 * 10^-6;
-
-%%
 
 % /////// CONSTANTS \\\\\\\\
