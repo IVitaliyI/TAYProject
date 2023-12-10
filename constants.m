@@ -1,5 +1,5 @@
 % /////// CONSTANTS \\\\\\\\
-m = .1;
+m = .1; 
 M = .2;
 L = .5;
 g = 9.8;
@@ -21,7 +21,7 @@ k_d = 1;
 
 
 %% Low level controller
-parallel_correct = 1;
+parallel_correct = 20;
 
 
 %% Curent sensor
@@ -35,9 +35,9 @@ max_output_voltage = 24;
 %% DC motor
 L = 350 * 10^-6;
 R_dc = 10;
-kw = 400 * 60 / (2 * pi);
-km = 16;
-J_motor = 500 * 0.5 * 10^-6;
+kw =    1 / (20 * pi);
+km = 16 * 10^-3;
+J_motor = 500 * 10^-9;
 vis_friction_coef_motor = 0.05;
 
 
@@ -47,9 +47,9 @@ J_gear = 2.4 * 10^-6;
 vis_friction_coef_gear = 0.05;
 
 %% Rail gearbox
-i_rail = 20;
+i_rail = 20 / 1000;
 k_visco = 0.05;
 m_rail = 0.5;
-J_rail = 1 * 10^-6;
+J_rail = 5 ;
 
 % /////// CONSTANTS \\\\\\\\
