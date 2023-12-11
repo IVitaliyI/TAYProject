@@ -13,42 +13,48 @@ _____
 
 _____
 <h3><b>Implemented:</b></h3>
-- Model of control object (Power gain; DC Motor; Current sensor; Reductor; 
+<ul>
+    <li> Model of control object (Power gain; DC Motor; Current sensor; Reductor; 
 Rack and Pinion; Inverse Pendulum; Backward Acceleration converter; 
-Hall sensor (Rotor speed and acceleration sensors)).
-- Model of MCU (High and Low level controllers; Control adapter).
-- Model layout of ACS.
-- Synthesis of Low level controller.
+Hall sensor (Rotor speed and acceleration sensors)). </li>
+    <li> Model of MCU (High and Low level controllers; Control adapter). </li>
+    <li> Model layout of ACS. </li>
+    <li> Synthesis of Low level controller. </li>
+</ul>
 
 
 <h3><b>Plan to realize:</b></h3>
-- Synthesis of High level controller.
-- Whole system test.
-- Add non-linear elements in models.
-- Research influence of interference on the system.
-- Investigation of the possibility of setting an arbitrary pendulum position.
+<ul>
+    <li> Synthesis of High level controller.</li>
+    <li> Whole system test. </li>
+    <li> Add non-linear elements in models. </li>
+    <li> Research influence of interference on the system. </li>
+    <li> Investigation of the possibility of setting an arbitrary pendulum position. </li>
+</ul>
 _____
 
 <h1 align="center" font-weight="bold">How to use</h1>
 <h3 align="center" align="center">Folders</h3>
 <h4>1. Graphics</h4>
 Include .mldath files (graph) of system outputs before and after synthesis.  
-The following parameters are reflected in the file:  
-- All outputs from inverted pendulum model (6 graph).
-- Outpus from HallSensor (2 graph).
-- Torque of DC Motor (1 graph).
-- Feedback angular acceleration and velocity (2 graph).
+<dd>The following parameters are reflected in the file:</dd>
+<ul>
+    <li> All outputs from inverted pendulum model (6 graph). </li>
+    <li> Outpus from HallSensor (2 graph). </li>
+    <li> Torque of DC Motor (1 graph). </li>
+    <li> Feedback angular acceleration and velocity (2 graph). </li>
+<ul>
 
 <h4>2. Models</h4>
 All developed models are located here
 
 <h4>3. ResultTestMathModelingOfInversePendulum</h4>
 Graphical results of the tests our inverted pendulum model.  
-The model was tested in isolation from control object and other model (only pendulum)  
+<dd>The model was tested in isolation from control object and other model (only pendulum)</dd>
 
 <h4>4. Tests</h4>
 Test parameters for inverted pendulum  
-P.S.: Not our files; Conditions issued by laboratory assistans
+<dd>P.S.: Not our files; Conditions issued by laboratory assistans </dd>
 
 <h3 font-style="italic" align="center">Important files</h3>
 <h4>1. Main</h4>
