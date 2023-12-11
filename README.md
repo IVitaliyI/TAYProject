@@ -5,7 +5,7 @@ Authors: Davydov V., Sadovets R., Nessans E.
 _____
 
 <h2 font-weight="bold">For quick start run main.m file<h2>
-
+<h2>It's important! If links in system composer is missed, you need to restart composer to see them!</h2>
 _____
 
 <h3 font-style="italic">Realization rate: 81 %</h3>
