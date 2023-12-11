@@ -21,7 +21,7 @@ k_d = 1;
 
 
 %% Low level controller
-parallel_correct = 20;
+parallel_correct = 7.7988e+05;
 
 
 %% Curent sensor
@@ -47,7 +47,7 @@ J_gear = 2.4 * 10^-6;
 vis_friction_coef_gear = 0.05;
 
 %% Rail gearbox
-i_rail = 20 / 1000;
+i_rail = 20 * 1000;
 k_visco = 0.05;
 m_rail = 0.5;
 J_rail = 5 ;
