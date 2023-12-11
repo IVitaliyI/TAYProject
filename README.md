@@ -31,10 +31,10 @@ Hall sensor (Rotor speed and acceleration sensors)). </li>
     <li> Research influence of interference on the system. </li>
     <li> Investigation of the possibility of setting an arbitrary pendulum position. </li>
 </ul>
-_____
+
 
 <h1 align="center" font-weight="bold">How to use</h1>
-<h3 align="center" align="center">Folders</h3>
+<h2 align="center" align="center">Folders</h2>
 <h4>1. Graphics</h4>
 Include .mldath files (graph) of system outputs before and after synthesis.  
 <dd>The following parameters are reflected in the file:</dd>
@@ -43,7 +43,7 @@ Include .mldath files (graph) of system outputs before and after synthesis.
     <li> Outpus from HallSensor (2 graph). </li>
     <li> Torque of DC Motor (1 graph). </li>
     <li> Feedback angular acceleration and velocity (2 graph). </li>
-<ul>
+</ul>
 
 <h4>2. Models</h4>
 All developed models are located here
@@ -56,7 +56,7 @@ Graphical results of the tests our inverted pendulum model.
 Test parameters for inverted pendulum  
 <dd>P.S.: Not our files; Conditions issued by laboratory assistans </dd>
 
-<h3 font-style="italic" align="center">Important files</h3>
+<h2 font-style="italic" align="center">Important files</h2>
 <h4>1. Main</h4>
 !!!To view the layout with constants you need to run this file!!!
 
