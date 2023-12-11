@@ -4,7 +4,7 @@ Authors: Davydov V., Sadovets R., Nessans E.
 
 _____
 
-<h3 font-weight="bold">For quick start run main.m file<h3>
+<h2 font-weight="bold">For quick start run main.m file<h2>
 
 _____
 
@@ -13,20 +13,20 @@ _____
 
 _____
 <h3><b>Implemented:</b></h3>
-..*Model of control object (Power gain; DC Motor; Current sensor; Reductor; 
+*Model of control object (Power gain; DC Motor; Current sensor; Reductor; 
 Rack and Pinion; Inverse Pendulum; Backward Acceleration converter; 
 Hall sensor (Rotor speed and acceleration sensors))  
-..*Model of MCU (High and Low level controllers; Control adapter)  
-..*Model layout of ACS  
-..*Synthesis of Low level controller  
+*Model of MCU (High and Low level controllers; Control adapter)  
+*Model layout of ACS  
+*Synthesis of Low level controller  
 
 
 <h3><b>Plan to realize:</b></h3>
-..*Synthesis of High level controller  
-..*Whole system test  
-..*Add non-linear elements in models  
-..*Research influence of interference on the system  
-..*Investigation of the possibility of setting an arbitrary pendulum position  
+*Synthesis of High level controller  
+*Whole system test  
+*Add non-linear elements in models  
+*Research influence of interference on the system  
+*Investigation of the possibility of setting an arbitrary pendulum position  
 _____
 
 <h1 align="center" font-weight="bold">How to use</h1>
@@ -34,10 +34,10 @@ _____
 <h4>1. Graphics</h4>
 Include .mldath files (graph) of system outputs before and after synthesis  
 The following parameters are reflected in the file:  
-..*All outputs from inverted pendulum model (6 graph)  
-..*Outpus from HallSensor (2 graph)  
-..*Torque of DC Motor (1 graph)  
-..*Feedback angular acceleration and velocity (2 graph)  
+*All outputs from inverted pendulum model (6 graph)  
+*Outpus from HallSensor (2 graph)  
+*Torque of DC Motor (1 graph)  
+*Feedback angular acceleration and velocity (2 graph)  
 
 <h4>2. Models</h4>
 All developed models are located here
