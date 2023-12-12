@@ -3,7 +3,7 @@ Final project for the course of Linear Theory of automatic control
 Authors: Davydov V., Sadovets R., Nessans E.
 
 _____
-
+<h1 font-weight="bold"> Main branch for 2023a matlab version. If you are using earlier versions, use branches containing your version in the name!!!</h1>
 <h3 font-weight="bold">For quick start run main.m file<h3>
 <h3>It's important! If links in system composer is missed, you need to restart composer to see them!</h3>
 
