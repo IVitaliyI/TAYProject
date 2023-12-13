@@ -1,13 +1,24 @@
 % /////// CONSTANTS \\\\\\\\
 m = .1; 
 M = .2;
-L = .5;
 g = 9.8;
 
-ts = 3/7;
 l = 1;
 J = m * l^2 / 3;
 
+%% Linear model
+Cv = J*(M+m)+m*M*l^2;
+
+A = [0,     1,                  0,       0;
+     0,     0,      -m^2*l^2*g/Cv,       0;
+     0,     0,     m*l*g*(M+m)/Cv,       1;
+     0,     0,                  0,       0];
+
+B = [0;     (m*l^2 + J)/Cv;    0;    -m*l/Cv];
+
+C = eye(4);
+
+D = [0; 0; 0; 0];
 
 %% Input data
 angle = 0;
